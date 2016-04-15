@@ -44,6 +44,6 @@ number of entries and exits, day of week, seasonality / holidays, proximity to t
 We used dictionaries and pandas DataFrames in Python to store and clean the MTA data. Once that was finished,
 we took some high level snapshots of the data. Below you can see some of the output generated:
 
-
+![Top 10 Stations](https://github.com/applebym/applebym.github.io/blob/master/images/top_20.png)
 
 I will finish my blog post this weekend with details on the data side of things. 
