@@ -46,4 +46,12 @@ we took some high level snapshots of the data. Below you can see some of the out
 
 ![Top 10 Stations](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/top_20.png)
 
+![Total Traffic by Day of Week](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/day_of_week.png)
+
+![Top 15 Stations Heatmap](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/heat2.png)
+
+![Tech Heavy Zip Codes](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/Est%20by%20zip.jpg)
+
+From this, we recommended sending the street teams to the *top 10 stations* within tech heavy zipcodes on Mon-Fri in May, excluding Memorial Day.
+
 I will finish my blog post this weekend with details on the data side of things. 
