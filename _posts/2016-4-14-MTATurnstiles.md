@@ -52,6 +52,11 @@ we took some high level snapshots of the data. Below you can see some of the out
 
 ![Tech Heavy Zip Codes](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/Est%20by%20zip.jpg)
 
-From this, we recommended sending the street teams to the *top 10 stations* within tech heavy zipcodes on Mon-Fri in May, excluding Memorial Day.
+From this, we recommended sending the street teams to the _top 10 stations_ within _tech heavy zipcodes_ on _Mon-Fri_ in _May_, _excluding Memorial Day_. 
 
-I will finish my blog post this weekend with details on the data side of things. 
+Given more time, some interesting next steps would be to overlay additional data sources, such as tourist density information, income distributions within Manhattan, donation density by location, and other demographic data (gender,
+age, etc). We also thought it might be prudent to focus on different data depending on the time of day and whether the
+target was entering or exiting a station. For example, in the morning, we would focus on demographic data when considering 
+the number of entries and industry data when considering the number of exits, given that the moring is commuter heavy. 
+
+Thanks for reading!
