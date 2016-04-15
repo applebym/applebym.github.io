@@ -1,0 +1,17 @@
+---
+layout: post
+title: Using MTA Turnstile Data to Create a Smart Canvasseering Plan
+---
+
+I ride the subway everyday, along with millions of others. Each time someone swipes their card and plows 
+through the turnstile, the MTA captures that bit of data at that points in time (well, actually during that
+specific four hour increment, to be precise). 
+
+For our first project at Metis, we were challenged with the task of downloading, cleaning, organizing, 
+scrubbing, and analyzing this data to help a fake organization with the task of deploying a street team
+to canvas for a gala. The task was loosely defined: we knew that the gala appealed to women in tech and
+that is about it. The rest was up to us to determine.
+
+Thus, my team and I started out by creating our own assumptions for the gala. 
+
+I will finish my blog post this weekend with details on the data side of things. 
