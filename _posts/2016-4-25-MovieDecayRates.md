@@ -33,6 +33,7 @@ Using these variables, I was only able to obtain an R-sqaured of 0.128 on my tra
 
 ![Betas](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/betas.png)
 
+To illustrate how my model would work, I put together two archetypes of a steep decay movie and a shallow decay movie. According to the model, an R-rated, low-budget, Horror film released in August with a low Metacritic score would yield a decay rate of -0.359. On the other end of the spectrum, a PG-rated, high-budget, Animation film released in November with a high Metacritic score would yield a decay rate of -0.161. I have graphed what the weekly revenue per theater curve would look like for each, assuming they start at the same opening weekend per theater revenue point for easy comparison. 
 
 Attributes			            Terms
 
@@ -50,5 +51,18 @@ August release 		    -0.022476
 
 Decay rate 			          -0.359
 
+Attributes			      Terms
+PG rated			-0.000303
+$100mn budget	        0.098248
+Animation 			-0.363797
+November release	-0.021356
+80 Metacritic score	 0.126397
+--------------------------------------------
+decay rate 			      -0.161
+
 
 ![Weekly Revenue Example](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/weeklyrevs.png)
+
+Despite seeing a notable difference in the average decay rate between different attributes, I think there are several reasons this was not captured in my model. First, I think I could have further adjusted my revenue per theather metric used in the calculation of the decay rate. As seen with Philadelphia, a limited release movie will have an abnormally high opening weekend revenue per theater, which will skew the decay rate more negative for movies that have quite a "strong" or shallow tail. Using the revenue per theater number at the widest release week may solve this. Second, there are features that I did not include in my regression analysis that could explain some of the variation between the revenue curves. For example, advertising spending (both dollars spent and timing), social media hype, competition from other movies, and Oscar nominations. Lastly, using a decay rate as my independant variable limited the representation of the revenue curve. In reality, these curves have different shapes between opening and closing weeks, including slight bumps around Oscar season. A different metric or non-linear regression may have been able to capture this better. 
+
+I ended this project with many ideas of how to move forwards and improve my model and look forwards to doing so when I have some time. I will report back in a future post with my findings!
