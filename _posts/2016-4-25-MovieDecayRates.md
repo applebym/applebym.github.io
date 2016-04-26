@@ -7,11 +7,15 @@ For my second project at Metis, I used movie data scraped from boxofficemojo.com
 
 First, let me define my label, or independent variable, the decay rate. I calculated the decay rate as follows:
 
-`decay rate = (ln(opening weekend rev) - ln(last week rev)) / numer of weeks in theaters`
+`decay rate = (ln(opening weekend rev OR highest weekly rev) - ln(last week rev)) / numer of weeks in theaters`
+
+Thus, the more negative the decay rate, the faster revenue drops over time or the steeper the curve. If the 
 
 ![The LEGO Movie](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/lego.png)
 
 ![Interstellar](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/stellar.png)
+
+I chose to use weekly revenue per theater vs. gross weekly revenue to adjust for the fact that 
 
 ![Philadelphia](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/Philadelphia.jpg)
 
