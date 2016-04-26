@@ -9,4 +9,24 @@ First, let me define my label, or independent variable, the decay rate. I calcul
 
 `decay rate = (ln(opening weekend rev) - ln(last week rev)) / numer of weeks in theaters`
 
+![The LEGO Movie](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/lego.png)
 
+![Interstellar](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/stellar.png)
+
+![Philadelphia](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/Philadelphia.jpg)
+
+![The Da Vinci Code](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/davinci.jpg)
+
+![Avg Decay by Metacritic Rating](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_meta.png)
+
+![Avg Decay by Genre](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_genre.png)
+
+![Avg Decay by Rating](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_rating.png)
+
+![Avg Decay by Release Month](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_month.png)
+
+![Avg Decay vs Budget](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/scatter_budget_decay.png)
+
+![Betas](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/betas.png)
+
+![Weekly Revenue Example](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/weeklyrevs.png)
