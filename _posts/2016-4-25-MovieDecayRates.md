@@ -29,26 +29,14 @@ Using these variables, I was only able to obtain an R-sqaured of 0.128 on my tra
 
 To illustrate how my model would work, I put together two archetypes of a steep decay movie and a shallow decay movie. According to the model, an R-rated, low-budget, Horror film released in August with a low Metacritic score would yield a decay rate of -0.359. On the other end of the spectrum, a PG-rated, high-budget, Animation film released in November with a high Metacritic score would yield a decay rate of -0.161. I have graphed what the weekly revenue per theater curve would look like for each, assuming they start at the same opening weekend per theater revenue point for easy comparison. 
 
-| Attributes    | Terms      | | Attributes    | Terms      |
-|:------------- | ----------:| |:------------- | ----------:|
-| R-rated       |  -0.087908 | | PG-rated       |  -0.000303 |
-| $5mn budget   |   0.082270 |
-| Horror        |  -0.371003 |
-| August release|  -0.022476 |
-| 25 Metacritic score | 0.039499 |
-| **Decay rate** | **-0.359** |
-
-
-
-Attributes			      Terms
-PG rated			-0.000303
-$100mn budget	        0.098248
-Animation 			-0.363797
-November release	-0.021356
-80 Metacritic score	 0.126397
---------------------------------------------
-decay rate 			      -0.161
-
+| Attributes    | Terms      |    | Attributes    | Terms      |
+|:------------- | ----------:|----|:------------- | ----------:|
+| R-rated       |  -0.087908 |----| PG-rated       |  -0.000303 |
+| $5mn budget   |   0.082270 |----| $100mn budget   |   0.098248 |
+| Horror        |  -0.371003 |----| Animation        |  -0.363797 |
+| August release|  -0.022476 |----| November release|  -0.021356 |
+| 25 Metacritic score | 0.039499 |---| 80 Metacritic score | 0.126397 |
+| **Decay rate** | **-0.359** |---| **Decay rate** | **-0.161** |
 
 ![Weekly Revenue Example](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/weeklyrevs.png)
 
