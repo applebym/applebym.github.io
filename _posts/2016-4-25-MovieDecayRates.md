@@ -12,7 +12,7 @@ First, let me define my label, or independent variable, the decay rate. I calcul
 ![The LEGO Movie](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/lego.png)![Interstellar](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/stellar.png)
  
 Thus, the more negative the decay rate, the faster revenue drops over time or the steeper the curve. I chose to use weekly revenue per theater vs. gross weekly revenue to adjust for the fact that some movies have a limited release in the first few weeks (as can be seen in the picture below for the movie Philadelphia) and for the differing theater counts throughout a movie's lifespan, which would directly affect revenue. Most movies with a limited early release at the end of the year do so to be eligible for that year's Academy Awards. For comparison, the weekly revenue chart for The Da Vinci Code is below Philadelphia and shows a more normal, exponential shape of weekly revenue per theater. 
-
+ 
 ![Philadelphia](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/Philadelphia.jpg)
 
 ![The Da Vinci Code](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/davinci.jpg)
