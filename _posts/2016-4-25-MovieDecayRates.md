@@ -31,12 +31,12 @@ To illustrate how my model would work, I put together two archetypes of a steep 
 
 | Attributes    | Terms      |    | Attributes    | Terms      |
 |:------------- | ----------:|----|:------------- | ----------:|
-| R-rated       |  -0.087908 |----| PG-rated       |  -0.000303 |
-| $5mn budget   |   0.082270 |----| $100mn budget   |   0.098248 |
-| Horror        |  -0.371003 |----| Animation        |  -0.363797 |
-| August release|  -0.022476 |----| November release|  -0.021356 |
-| 25 Metacritic score | 0.039499 |---| 80 Metacritic score | 0.126397 |
-| **Decay rate** | **-0.359** |---| **Decay rate** | **-0.161** |
+| R-rated       |  -0.087908 |    | PG-rated       |  -0.000303 |
+| $5mn budget   |   0.082270 |    | $100mn budget   |   0.098248 |
+| Horror        |  -0.371003 |    | Animation        |  -0.363797 |
+| August release|  -0.022476 |    | November release|  -0.021356 |
+| 25 Metacritic score | 0.039499 |   | 80 Metacritic score | 0.126397 |
+| **Decay rate** | **-0.359** |   | **Decay rate** | **-0.161** |
 
 ![Weekly Revenue Example](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/weeklyrevs.png)
 
