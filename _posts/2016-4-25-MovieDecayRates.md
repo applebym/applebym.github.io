@@ -13,19 +13,13 @@ First, let me define my label, or independent variable, the decay rate. I calcul
  
 Thus, the more negative the decay rate, the faster revenue drops over time or the steeper the curve. I chose to use weekly revenue per theater vs. gross weekly revenue to adjust for the fact that some movies have a limited release in the first few weeks (as can be seen in the picture below for the movie Philadelphia) and for the differing theater counts throughout a movie's lifespan, which would directly affect revenue. Most movies with a limited early release at the end of the year do so to be eligible for that year's Academy Awards. For comparison, the weekly revenue chart for The Da Vinci Code is below Philadelphia and shows a more normal, exponential shape of weekly revenue per theater. 
  
-![Philadelphia](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/Philadelphia.jpg)
-
-![The Da Vinci Code](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/davinci.jpg)
+![Philadelphia](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/Philadelphia.jpg)![The Da Vinci Code](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/davinci.jpg)
 
 A look at the data shows that the decay rate does differ somewhat significantly between buckets of certain features. Below are five charts showing the average decay rate for each group of a particular attribute. Most of it jived with my initial intuition. For example, higher rated Metacritic scores and movies released in the early summer and holiday season are associated with less negative decay rates. These are the five features I ultimately chose to include in my linear regression model. 
 
-![Avg Decay by Metacritic Rating](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_meta.png)
+![Avg Decay by Metacritic Rating](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_meta.png)![Avg Decay by Genre](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_genre.png)
 
-![Avg Decay by Genre](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_genre.png)
-
-![Avg Decay by Rating](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_rating.png)
-
-![Avg Decay by Release Month](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_month.png)
+![Avg Decay by Rating](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_rating.png)![Avg Decay by Release Month](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/avg_decay_by_month.png)
 
 ![Avg Decay vs Budget](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/scatter_budget_decay.png)
 
