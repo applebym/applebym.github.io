@@ -34,5 +34,14 @@ Using these variables, I was only able to obtain an R-sqaured of 0.128 on my tra
 ![Betas](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/betas.png)
 
 
+Attributes			            Terms
+R rated				          -0.087908
+$5mn budget			        0.082270
+Horror 				          -0.371003
+August release 		    -0.022476
+25 Metacritic score	  0.039499
+------------------------------
+Decay rate 			          -0.359
+
 
 ![Weekly Revenue Example](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/weeklyrevs.png)
