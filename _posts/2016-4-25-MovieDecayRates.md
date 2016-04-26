@@ -36,7 +36,7 @@ To illustrate how my model would work, I put together two archetypes of a steep 
 | Horror        |  -0.371003 |    | Animation        |  -0.363797 |
 | August release|  -0.022476 |    | November release|  -0.021356 |
 | 25 Metacritic score | 0.039499 |   | 80 Metacritic score | 0.126397 |
-|------------------------|------|----|------------------------|-------|
+|------------------------|----------|----|------------------------|----------|
 | **Decay rate** | **-0.359** |   | **Decay rate** | **-0.161** |
 
 ![Weekly Revenue Example](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/weeklyrevs.png)
