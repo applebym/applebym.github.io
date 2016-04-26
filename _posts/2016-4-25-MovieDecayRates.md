@@ -9,10 +9,7 @@ First, let me define my label, or independent variable, the decay rate. I calcul
 
 `decay rate = (ln(opening weekend rev OR highest weekly rev) - ln(last week rev)) / numer of weeks in theaters`
 
-Solarized dark             |  Solarized Ocean
-:-------------------------:|:-------------------------:
-![The LEGO Movie](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/lego.png)
-  |  ![Interstellar](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/stellar.png)
+![The LEGO Movie](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/lego.png)![Interstellar](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post2/stellar.png)
 
 Thus, the more negative the decay rate, the faster revenue drops over time or the steeper the curve. I chose to use weekly revenue per theater vs. gross weekly revenue to adjust for the fact that 
 
