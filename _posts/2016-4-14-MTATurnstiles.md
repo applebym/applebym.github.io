@@ -4,7 +4,7 @@ title: Using MTA Turnstile Data to Create a Smart Canvasseering Plan
 ---
 
 I ride the subway everyday, along with millions of others. Each time someone swipes their card and plows 
-through the turnstile, the MTA captures that bit of data at that points in time (well, actually during that
+through the turnstile, the MTA captures that bit of data at that points in time (actually during that
 specific four hour increment, to be precise). 
 
 For our first project at Metis, we were challenged with the task of downloading, cleaning, organizing, 
@@ -44,13 +44,12 @@ number of entries and exits, day of week, seasonality / holidays, proximity to t
 We used dictionaries and pandas DataFrames in Python to store and clean the MTA data. Once that was finished,
 we took some high level snapshots of the data. Below you can see some of the output generated:
 
-![Top 10 Stations](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/top_20.png)
+![Top 10 Stations](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post1/top_20.png)
 
-![Total Traffic by Day of Week](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/day_of_week.png)
+![Total Traffic by Day of Week](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post1/day_of_week.png)
+![Top 15 Stations Heatmap](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post1/heat2.png)
 
-![Top 15 Stations Heatmap](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/heat2.png)
-
-![Tech Heavy Zip Codes](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/Est%20by%20zip.jpg)
+![Tech Heavy Zip Codes](https://raw.githubusercontent.com/applebym/applebym.github.io/master/images/post1/Est%20by%20zip.jpg)
 
 From this, we recommended sending the street teams to the _top 10 stations_ within _tech heavy zipcodes_ on _Mon-Fri_ in _May_, _excluding Memorial Day_. 
 
